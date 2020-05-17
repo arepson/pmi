@@ -17,3 +17,14 @@
 @import 'utils';
 @import 'docs';
 @import 'plugins';
+
+/* Transitions */
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: ease opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+	opacity: 0;
+}

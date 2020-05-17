@@ -10,6 +10,8 @@ import Card from '~/components/Card'
 
 import VueScrollTo from 'vue-scrollto'
 
+import InfiniteLoading from 'vue-infinite-loading'
+
 import Typography from 'typography'
 
 const typography = new Typography({
@@ -28,6 +30,7 @@ export default function (Vue, { head, router, isServer }) {
   Vue.component('Card', Card)
 
   Vue.use(VueScrollTo)
+  Vue.use(InfiniteLoading)
 
   head.style.push({
     type: 'text/css',
