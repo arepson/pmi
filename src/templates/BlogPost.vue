@@ -16,7 +16,6 @@
         <div v-html="$page.post.content"/>
 
       </div>
-
       <Newsletter />
     </Section>
   </Layout>
@@ -26,7 +25,7 @@
 query ($id: ID!) {
   post: blogPost (id: $id) {
     title
-    date (format: "D. MMMM YYYY")
+    date (format: "D MMMM YYYY")
     timeToRead
     content
     author {

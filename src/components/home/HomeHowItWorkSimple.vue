@@ -3,13 +3,11 @@
     <div class="grid-cols grid-cols--gap-large grid-cols--full-md">
 
       <Card title="Pintasan">
-        <p>Berikut beberapa link yang dirasa berguna:</p>
         <ul class="bullet-list mb">
-          <li><Bullet /><a href="https://s.id/StokDarah"  rel="noopener" target="_blank">Stok Darah</a></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#automatic-code-splitting">Automatic Code Splitting</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern">Follows PRPL-pattern</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching">Smart link prefetching</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#progressive-images">Progressive Images</g-link></li>
+          <li><Bullet /><g-link to="/stokdarah/">Stok Darah PMI Kudus</g-link></li>
+          <li><Bullet /><g-link to="/berita/">Berita PMI kudus</g-link></li>
+          <li><Bullet /><g-link to="/kontak/">Kontak</g-link></li>
+          <li><Bullet /><g-link to="/laman/">Laman</g-link></li>
         </ul>
 
         <template slot="outer">
@@ -27,7 +25,7 @@
         </div>
 
         <p class="works__tools flex gap-15 text-center flex--center">
-          Sambutan Kepala<br/><strong>PMI Kabupaten Kudus</strong>
+          <g-link to="/sambutan/">Sambutan Kepala<br/><strong>PMI Kabupaten Kudus</strong></g-link>
         </p>
 
         <template slot="outer">
@@ -36,18 +34,11 @@
         </template>
       </Card>
 
-      <Card title="Deploy">
-        <h4>Static Web Hosts & CDNs</h4>
-        <p>
-          <g-link to="/docs/deploy-to-netlify/">Netlify</g-link>, <g-link to="/docs/deploy-to-amplify/">AWS Amplify</g-link>, <g-link to="/docs/deploy-to-vercel/">Vercel (formerly ZEIT Now)</g-link>, <g-link to="/docs/deploy-to-amazon-s3/">Amazon S3</g-link>, <g-link to="/docs/deploy-to-surge-sh/">Surge.sh</g-link>, Aerobatic & many more.
-        </p>
-
+      <Card title="Website Terkait">
         <ul class="bullet-list mb">
-          <li><Bullet /><g-link to="/docs/fast-by-default/#pre-rendered-html">Pre-rendered HTML</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#automatic-code-splitting">Automatic Code Splitting</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#the-prpl-pattern">Follows PRPL-pattern</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#smart-link-prefetching">Smart link prefetching</g-link></li>
-          <li><Bullet /><g-link to="/docs/fast-by-default/#progressive-images">Progressive Images</g-link></li>
+          <li><Bullet /><a href="//pmi.or.id/" rel="noopener" target="_blank">PMI Pusat</a></li>
+          <li><Bullet /><a href="//pmi-jateng.or.id/" rel="noopener" target="_blank">PMI Jawa Tengah</a></li>
+          <li><Bullet /><a href="//kuduskab.go.id/" rel="noopener" target="_blank">Pemkab Kudus</a></li>
         </ul>
       </Card>
 

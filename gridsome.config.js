@@ -2,9 +2,9 @@ const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   siteName: 'PMI Kudus',
-  siteUrl: `https://www.gridsome.org`,
+  siteUrl: `https://www.pmikudus.eu.org/`,
   titleTemplate: '%s - PMI Kudus',
-  siteDescription: 'Gridsome is a free & open source Vue.js-powered framework for building websites & apps that are fast by default 🚀.',
+  siteDescription: 'Mengabdi Bagi Negeri Dari Hati',
 
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')

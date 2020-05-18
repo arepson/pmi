@@ -38,7 +38,7 @@ query ($page: Int) {
         id
         title
         path
-        date (format: "D. MMMM YYYY")
+        date (format: "D MMMM YYYY")
         timeToRead
         author {
           title
