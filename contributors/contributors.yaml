@@ -163,3 +163,9 @@
   bio: "Front-end developer & designer"
   avatar: ./images/paulozyzniewski.jpg
   twitter: "@OziOcb"
+
+- id: pmi.kudus
+  name: Humas PMI Kudus
+  bio: "Penulis Berita"
+  avatar: ./images/pmiku.svg
+  twitter: "@OziOcb"

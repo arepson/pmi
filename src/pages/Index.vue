@@ -28,10 +28,6 @@
     <LazyHydrate when-visible>
       <home-blog />
     </LazyHydrate>
-
-    <LazyHydrate when-visible>
-      <home-data-layer />
-    </LazyHydrate>
     
   </Layout>
 </template>
@@ -45,7 +41,6 @@ import HomeFeatures from '@/components/home/HomeFeatures.vue'
 import HomeExamples from '@/components/home/HomeExamples.vue'
 import HomeCommunity from '@/components/home/HomeCommunity.vue'
 import HomeConnect from '@/components/home/HomeConnect.vue'
-import HomeDataLayer from '@/components/home/HomeDataLayer.vue'
 
 export default {
   components: {
@@ -57,7 +52,6 @@ export default {
     HomeConnect,
     HomeFeatures,
     HomeBlog,
-    HomeDataLayer
   },
   
   metaInfo: {

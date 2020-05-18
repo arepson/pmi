@@ -21,7 +21,7 @@
     margin: 5px;
     display: inline-block;
     border-radius: 99px;
-    background-color: var(--primary-color);
+    background-color: #8F111D;
     animation: moveInOutX .3s linear infinite;
   }
 }

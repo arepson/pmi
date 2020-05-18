@@ -19,9 +19,7 @@
         </p>
 
         <p class="intro__info">
-          <span>Open-source MIT Licensed. </span>
-          <a href="//github.com/gridsome/gridsome" target="_blank" rel="noopener noreferrer">
-            <span>GitHub (v{{ $static.metadata.gridsomeVersion }})</span>
+          <span>Mengabdi Bagi Negeri Dari Hati <span style="color: #e25555;">&#9829;</span></span>
           </a>
         </p>
     </div>

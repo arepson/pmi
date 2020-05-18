@@ -18,24 +18,17 @@
         </template>
       </Card>
 
-      <Card title="Build" class="text-center flex-align-middle">
+      <Card title="Sambutan" class="text-center flex-align-middle">
 
         <div class="works__logo">
-          <gridsome-logo />
+          <sambutan />
           <div class="works__pulse-bg"></div>
           <div class="works__pulse-bg"></div>
         </div>
 
-        <p class="works__powered-by">
-          Powered by <br/><strong>GraphQL </strong>
-          <graph-ql-logo width="15" height="18" />
+        <p class="works__tools flex gap-15 text-center flex--center">
+          Sambutan Kepala<br/><strong>PMI Kabupaten Kudus</strong>
         </p>
-
-        <ul class="works__tools flex gap-15 text-center flex--center">
-          <li>HTML</li>
-          <li><vue-logo width="28" height="28" alt="Vue" /> Vue.js</li>
-          <li>CSS</li>
-        </ul>
 
         <template slot="outer">
           <Dots class="hide-for-small"/>
@@ -66,7 +59,7 @@
 import GraphQlLogo from '~/assets/images/graphql-logo.svg'
 import VueLogo from '~/assets/images/vue-logo.svg'
 import WebpackLogo from '~/assets/images/webpack-logo.svg'
-import GridsomeLogo from '~/assets/images/gridsome-small-white.svg'
+import Sambutan from '~/assets/images/sambutan.svg'
 import Bullet from '~/assets/images/bullet.svg'
 import Dots from '~/components/Dots.vue'
 
@@ -74,7 +67,7 @@ export default {
   components: {
     Bullet,
     VueLogo,
-    GridsomeLogo,
+    Sambutan,
     WebpackLogo,
     GraphQlLogo,
     Dots
@@ -101,7 +94,6 @@ export default {
 
 
   &__tools {
-    font-weight: 500;
     border: 1px solid var(--border-color);
     max-width: 230px;
     border-radius: 4px;
@@ -115,7 +107,7 @@ export default {
   }
 
   &__logo {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-dark);
     width: 100px;
     z-index: 1;
     position: relative;

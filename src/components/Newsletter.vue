@@ -36,7 +36,7 @@
   	top:0;
   	left:0;
   	right:0;
-  	background: linear-gradient(90deg, var(--primary-color) 0%, #8ED6FB 50%, #D32E9D 100%);
+  	background: linear-gradient(90deg, var(--primary-color) 40%,  #f37052 30%, #f7aa8e 20%, #fce6db 10%);
   }
 
   &__form {

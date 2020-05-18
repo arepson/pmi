@@ -58,8 +58,8 @@ module.exports = {
         index: ['README'],
         baseDir: './laman',
         pathPrefix: '/laman',
-        typeName: 'DocPage',
-        template: './src/templates/DocPage.vue',
+        typeName: 'Laman',
+        template: './src/templates/Laman.vue',
         plugins: [
           '@gridsome/remark-prismjs'
         ],

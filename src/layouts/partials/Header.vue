@@ -13,6 +13,26 @@
         <ToggleTheme />
 
         <a
+          aria-label="Facebook"
+          href="https://www.facebook.com/pmikabkudus/"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="Follow Yuk!"
+        >
+          <facebook-logo/>
+        </a>
+
+        <a
+          aria-label="Instagram"
+          href="https://www.instagram.com/pmi.kudus/"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="Join our discord"
+        >
+          <instagram-logo/>
+        </a>
+
+        <a
           aria-label="Twitter"
           href="//twitter.com/gridsome"
           rel="noopener noreferrer"
@@ -89,6 +109,8 @@ import ToggleTheme from '@/components/ToggleTheme.vue'
 import GithubLogo from '@/assets/images/github-logo.svg'
 import TwitterLogo from '@/assets/images/twitter-logo.svg'
 import DiscordLogo from '@/assets/images/discord-logo.svg'
+import FacebookLogo from '@/assets/images/facebook-logo.svg'
+import InstagramLogo from '@/assets/images/instagram-logo.svg'
 import LazyHydrate from 'vue-lazy-hydration'
 
 export default {
@@ -98,6 +120,8 @@ export default {
     TwitterLogo,
     ToggleTheme,
     DiscordLogo,
+    FacebookLogo,
+    InstagramLogo,
     SearchForm,
     Nav,
     LazyHydrate
@@ -118,7 +142,7 @@ header {
 
 
   .header-bar {
-    background: linear-gradient(90deg, var(--primary-color) 0%,  #8ED6FB 50%, #D32E9D 100%);
+    background: linear-gradient(90deg, var(--primary-color) 40%,  #f37052 30%, #f7aa8e 20%, #fce6db 10%);
     padding: 2px;
     text-align: center;
     color:#FFF;

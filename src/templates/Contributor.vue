@@ -13,7 +13,7 @@
         </a>
       </div>
 
-      <h3 class="text-center" v-if="$page.contributor.posts.edges.length">Blog posts</h3>
+      <h3 class="text-center" v-if="$page.contributor.posts.edges.length">Berita Yang Ditulis</h3>
 
       <PostCard v-for="edge in $page.contributor.posts.edges" :key="edge.node.id" :post="edge.node"/>
 

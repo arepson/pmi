@@ -47,7 +47,7 @@ export default {
       span {
         display: inline-block;
         padding: 2px 12px 4px;
-        background-color: var(--dark-bg);
+        background-color: var(--primary-color-dark);
         color: #FFF;
         border-radius: 3px;
         font-weight: 500;

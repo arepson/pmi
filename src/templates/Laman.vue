@@ -6,7 +6,7 @@
 
 <page-query>
 query ($id: ID!) {
-  doc: docPage (id: $id) {
+  doc: laman (id: $id) {
     title
     headings (depth: h1) {
       value
