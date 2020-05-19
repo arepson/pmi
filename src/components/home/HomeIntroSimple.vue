@@ -19,7 +19,7 @@
         </p>
 
         <p class="intro__info">
-          <span>#KitaHadapiBersama </span></span>
+          <span>#️⃣KitaHadapiBersama </span></span>
           </a>
         </p>
     </div>

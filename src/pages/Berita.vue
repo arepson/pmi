@@ -2,7 +2,7 @@
   <Layout>
      <Section container="md" class="blog-posts">
       <div class="mb-x2 container-sm text-center">
-        <h1>Berita PMI Kudus</h1>
+        <h1>Berita PMI Kudus 📰</h1>
         <p style="opacity: .8">#KitaHadapiBersama</p>
       </div>
 			<transition-group name="fade">

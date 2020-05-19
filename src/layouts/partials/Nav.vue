@@ -13,7 +13,7 @@
     </g-link>
 
     <g-link to="/stokdarah/">
-      <span class="main-nav__label">Stok Darah</span>
+      <span class="main-nav__label hide-for-small">Stok Darah</span>
     </g-link>
   </nav>
 </template>

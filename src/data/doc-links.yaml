@@ -1,9 +1,9 @@
-- title: Prologue
+- title: Profil
   items:
-    - title: Introduction
+    - title: Apa itu PMI?
       link: /laman/
-    - title: Core concepts
-      link: /laman/core-concepts/
+    - title: Sejarah PMI
+      link: /laman/sejarah-pmi/
     - title: Fast by default
       link: /laman/fast-by-default/
     - title: Deployment
