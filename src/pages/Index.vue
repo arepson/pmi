@@ -8,10 +8,6 @@
     <LazyHydrate when-visible>
       <home-how-it-work-simple />
     </LazyHydrate>
-    
-    <LazyHydrate when-visible>
-      <home-features />
-    </LazyHydrate>
 
     <LazyHydrate when-visible>
       <home-connect />
@@ -37,7 +33,6 @@ import LazyHydrate from 'vue-lazy-hydration'
 import HomeIntroSimple from '@/components/home/HomeIntroSimple.vue'
 import HomeHowItWorkSimple from '@/components/home/HomeHowItWorkSimple.vue'
 import HomeBlog from '@/components/home/HomeBlog.vue'
-import HomeFeatures from '@/components/home/HomeFeatures.vue'
 import HomeExamples from '@/components/home/HomeExamples.vue'
 import HomeCommunity from '@/components/home/HomeCommunity.vue'
 
@@ -48,7 +43,6 @@ export default {
     HomeHowItWorkSimple,
     HomeExamples,
     HomeCommunity,
-    HomeFeatures,
     HomeBlog,
   },
   

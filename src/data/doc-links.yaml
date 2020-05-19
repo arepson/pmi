@@ -2,124 +2,34 @@
   items:
     - title: Apa itu PMI?
       link: /laman/
-    - title: Sejarah PMI
+    - title: Sejarah
       link: /laman/sejarah-pmi/
-    - title: Fast by default
-      link: /laman/fast-by-default/
-    - title: Deployment
-      link: /laman/deployment/
+    - title: Visi Dan Misi
+      link: /laman/visi-misi/
+    - title: 7 Prinsip Dasar
+      link: /laman/prinsip-dasar/
+    - title: Mars Dan Hymne
+      link: /laman/mars-hymne/
 
-- title : Basic Gridsome
+- title: Kapasitas Relawan
   items:
-    - title: Directory structure
-      link: /laman/directory-structure/
-    - title: Project configuration
-      link: /laman/config/
-    - title: Pages
-      link: /laman/pages/
-    - title: Collections
-      link: /laman/collections/
-    - title: Templates
-      link: /laman/templates/
-    - title: Layouts
-      link: /laman/layouts/
-    - title: Components
-      link: /laman/components/
-    - title: Linking
-      link: /laman/linking/
-    - title: Dynamic Routing
-      link: /laman/dynamic-routing/
-    - title: Image processing
-      link: /laman/images/
-    - title: Populating <head>
-      link: /laman/head/
-    - title: Environment Variables
-      link: /laman/environment-variables/
+    - title: Palang Merah Remaja (PMR)
+      link: /laman/pmr/
+    - title: Korps Sukarela (KSR)
+      link: /laman/ksr/
+    - title: Tenaga Sukarela (TSR)
+      link: /laman/tsr/
 
-- title : Working with data
+- title : Seputar Darah
   items:
-    - title: GraphQL data layer
-      link: /laman/data-layer/
-    - title: Importing data
-      link: /laman/fetching-data/
-    - title: Querying data
-      link: /laman/querying-data/
-    - title: Filtering data
-      link: /laman/filtering-data/
-    - title: Taxonomy pages
-      link: /laman/taxonomies/
-    - title: Paginate data
-      link: /laman/pagination/
-    - title: Global metadata
-      link: /laman/metadata/
-    - title: Client-side data
-      link: /laman/client-side-data/
-
-- title : Styles and Assets
-  items:
-    - title: Use CSS in Gridsome
-      link: /laman/assets-css/
-    - title: Add custom fonts
-      link: /laman/assets-fonts/
-    - title: Add external scripts
-      link: /laman/assets-scripts/
-    - title: Add SVG icons
-      link: /laman/assets-svg/
-
-- title : Guides
-  items:
-    - title: Add a form
-      link: /laman/guide-forms/
-    - title: Add a search *
-      link: /laman/guide-search/
-    - title: Add comments
-      link: /laman/guide-comments/
-    - title: Add Netlify CMS
-      link: /laman/guide-netlify-cms/
-    - title: Overriding index.html
-      link: /laman/overriding-index/
-    - title: Overriding App.vue
-      link: /laman/overriding-app/
-    - title: Page transitions
-      link: /laman/page-transitions/
-    - title: body & html attributes
-      link: /laman/body-html-attributes/
-
-- title: API Reference
-  items:
-    - title: Gridsome CLI
-      link: /laman/gridsome-cli/
-    - title: Server API
-      link: /laman/server-api/
-    - title: Data store API
-      link: /laman/data-store-api/
-    - title: Schema API
-      link: /laman/schema-api/
-    - title: Pages API
-      link: /laman/pages-api/
-    - title: Client API
-      link: /laman/client-api/
-    - title: Transformer API
-      link: /laman/transformer-api/
-
-- title: Deploy
-  items:
-    - title: Netlify
-      link: /laman/deploy-to-netlify/
-    - title: AWS Amplify
-      link: /laman/deploy-to-amplify/
-    - title: Vercel (formerly ZEIT Now)
-      link: /laman/deploy-to-vercel/
-    - title: Amazon S3
-      link: /laman/deploy-to-amazon-s3/
-    - title: GitLab Pages
-      link: /laman/deploy-to-gitlab/
-    - title: Github Pages
-      link: /laman/deploy-to-github/
-    - title: Google Cloud Platform
-      link: /laman/deploy-to-google/
-    - title: Surge.sh
-      link: /laman/deploy-to-surge-sh/
+    - title: Manfaat Donor Darah
+      link: /laman/manfaat-donor/
+    - title: Syarat Donor Darah
+      link: /laman/syarat-donor/
+    - title: Dilarang Donor Darah
+      link: /laman/dilarang-donor/
+    - title: Prosedur Donor
+      link: /laman/prosedur-donor/
 
 - title: Contribute
   items:

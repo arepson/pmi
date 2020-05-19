@@ -15,8 +15,8 @@
         <slot />
         <p>
           <a :href="editLink" target="_blank" class="github-edit-link">
-            <Github />
-            <span>Edit this page on GitHub</span>
+            <Lapor />
+            <span>Laman bermasalah?</span>
           </a>
         </p>
         <nav class="docs-nav">
@@ -33,7 +33,7 @@
         </nav>
       </Section>
       <div v-if="subtitles.length > 0 && subtitles[0].depth !== 3" class="sidebar sidebar--right hide-for-small">
-        <h3>On this page</h3>
+        <h3>Isi Laman</h3>
         <ul v-if="subtitles.length" class="menu-item submenu">
           <li class="submenu__item" :class="'submenu__item-depth-' + subtitle.depth" v-for="subtitle in subtitles" :key="subtitle.value">
             <a class="submenu__link" :href="subtitle.anchor">
@@ -47,11 +47,11 @@
 </template>
 
 <script>
-import Github from '~/assets/images/github-logo.svg'
+import Lapor from '~/assets/images/laman/lapor.svg'
 
 export default {
   components: {
-    Github
+    Lapor
   },
   props: {
     subtitles: { type: Array, default: () => [] },
@@ -64,7 +64,7 @@ export default {
     editLink () {
       let path = this.currentPath
       if((path.match(new RegExp("/", "g")) || []).length == 1) path = path + '/README'
-      return `https://github.com/gridsome/gridsome.org/blob/master${path}.md`
+      return `/kontak`
     },
     items () {
       return this.links.reduce((acc, group) => (acc.push(...group.items), acc), [])
