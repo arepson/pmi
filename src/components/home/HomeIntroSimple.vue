@@ -1,15 +1,15 @@
 <template>
   <Section class="intro" dots="true">
-    <div class="container text-center ">
+    <div class="container text-center">
 
         <div class="intro__message mb" hidden></div>
 
         <h1 class="intro__title">
-          <span>PMI Kabupaten Kudus</span>
+          <span>PMI Kabupaten Kudus <beta width="50" height="50" /></span>
         </h1>
 
         <p class="intro__lead lead post mb">
-          Jl. Kudus - Purwodadi (Depan RS Mardi Rahayu), Jati Kulon Kudus <g-link to="https://goo.gl/maps/f4WCXbhj2UEyShVt6">(Buka Google Maps)</g-link> 🚀
+          Jl. Kudus - Purwodadi (Depan RS Mardi Rahayu), Jati Kulon Kudus <g-link to="https://goo.gl/maps/f4WCXbhj2UEyShVt6">(Buka Google Maps)</g-link> 🗺️
         </p>
 
         <p class="intro__links">
@@ -19,7 +19,7 @@
         </p>
 
         <p class="intro__info">
-          <span>Mengabdi Bagi Negeri Dari Hati <span style="color: #e25555;">&#9829;</span></span>
+          <span>#KitaHadapiBersama </span></span>
           </a>
         </p>
     </div>
@@ -35,7 +35,18 @@ query {
 </static-query>
 
 <script>
+import Beta from '~/assets/images/beta.svg'
 export default {
+  props: ['icon'],
+  components: {
+    Beta
+  },
+  computed: {
+    iconClasses() {
+      let classes = []
+      return classes
+    }
+  },
   data () {
     return {
       currentText: 0

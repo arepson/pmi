@@ -1,1 +1,1 @@
-This is the Git repository for gridsome.org. Feel free to contribute 🥳
+Git repository untuk website pmikudus.eu.org. Dikembangkan dan dikelola oleh Arep Peterson

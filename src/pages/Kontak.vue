@@ -36,38 +36,10 @@
   </Layout>
 </template>
 
-<page-query>
-query {
-  posts: allBlogPost {
-    edges {
-      node {
-        id
-        title
-        path
-        date (format: "D. MMMM YYYY")
-        timeToRead
-        author {
-          title
-          path
-          avatar (width: 60)
-        }
-        excerpt
-        content
-      }
-    }
-  }
-}
-</page-query>
-
 <script>
-import PostCard from '@/components/PostCard.vue'
-
 export default {
-  components: {
-    PostCard
-  },
   metaInfo: {
-    title: 'Blog'
+    title: 'Kontak'
   }
 }
 </script>

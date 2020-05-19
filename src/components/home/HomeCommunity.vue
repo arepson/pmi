@@ -1,24 +1,30 @@
 <template>
   <Section>
-  	<h2 class="text-center mb-x2">Gridsome Sponsors</h2>
-    <div class="grid-cols container container-md grid-cols--2">
+    <div class="grid-cols container container-md grid-cols--4">
     	<Card class="sponsor text-center">
-	      <g-image src="~/assets/images/logo-netlify.svg" alt="Netlify"/>
-	      <p>Thanks to <a href="https://netlify.com"  rel="noopener" target="_blank">Netlify</a> for sponsoring Gridsome hosting infrastructure.</p>
+	      <g-image width="100" src="~/assets/images/mitra/icrc.svg" alt="ICRC"/>
     	</Card>
-      <Card class="sponsor text-center">
-	      <g-image src="~/assets/images/logo-algolia.svg" alt="Algolia"/>
-	      <p>Thanks to <a href="https://algolia.com"  rel="noopener" target="_blank">Algolia</a> for sponsoring search for Plugins and Documentation</p>
-    	</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/ifrc.svg" alt="IFRC"/>
+		</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/pmi.svg" alt="PMI"/>
+		</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/bmkg.svg" alt="BMKG"/>
+		</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/bnpb.svg" alt="BNPB"/>
+		</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/bpbd.svg" alt="BPBD"/>
+		</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/jateng.svg" alt="Jateng"/>
+		</Card>
+		<Card class="sponsor text-center">
+			<g-image width="120" src="~/assets/images/mitra/kudus.svg" alt="Kudus"/>
+		</Card>
     </div>
   </Section>
 </template>
-
-<style lang="scss">
-.sponsor {
-	img {
-		max-height: 35px;
-		width: auto;
-	}
-}
-</style>

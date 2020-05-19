@@ -37,7 +37,7 @@ query {
         id
         title
         path
-        date (format: "D. MMMM YYYY")
+        date (format: "D MMMM YYYY")
         timeToRead
         content
         author {

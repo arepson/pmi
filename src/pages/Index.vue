@@ -55,7 +55,7 @@ export default {
   },
   
   metaInfo: {
-    title: 'Modern Site Generator for Vue.js'
+    title: '#KitaHadapiBersama'
   }
 }
 </script>

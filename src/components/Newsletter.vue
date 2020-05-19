@@ -1,13 +1,9 @@
 <template>
 	<Card class="newsletter" id="mc_embed_signup">
-		<p class="mb-half"><strong>👋 Stay in the loop.</strong> Subscribe to Gridsome newsletter!</p>
-		<form action="https://gridsome.us19.list-manage.com/subscribe/post?u=960a357f3405a688ff935a10e&amp;id=42bbd30818" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter__form validate" target="_blank" novalidate>
+		<p class="mb-half text-center"><strong>👋 Jangan lewatkan setiap moment.</strong> Subscribe yuk!</p>
+		<form action="https://340beff8.sibforms.com/serve/MUIEAGHhWFfDLb-mxEMnXwvvq7giKui45dtzvk0qcytCOQ3cyK-TypQwW3UdULPA4n5Ek4G5yGiWNW9tuiVB_CE6iFaA1VqWi3F44w5tjkJsR6IKI-nNh42K-H3qM3hTOw-UwqbyFkBXnQYze1pRAEhEiPZVZt_K-VRi0tL34mxerYhCfItSMnW6aMS9FGahqpH00EEHnKUcUq8n" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter__form validate" target="_blank" novalidate>
 		<div id="mc_embed_signup_scroll" class="flex">
 			
-			<div class="newsletter__field mc-field-group flex-fit" style="margin-right: 15px">
-				<input  type="email" aria-label="Email" placeholder="your@email.com" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-			</div>
-
 			<div class="newsletter__button">
 				<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button primary">
 					Subscribe
@@ -48,7 +44,7 @@
   }
   &__button {
   	margin: 0 auto;
-  	margin-bottom: 1rem;
+  	margin-bottom: .2rem;
   }
   
   p {
