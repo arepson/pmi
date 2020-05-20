@@ -11,7 +11,7 @@
 
         <g-image v-if="$page.post.poster" quality="1" width="600" :src="$page.post.poster" />
 
-        <p class="lead" v-html="$page.post.excerpt"/>
+        <p v-html="$page.post.excerpt"/>
 
         <div v-html="$page.post.content"/>
 
