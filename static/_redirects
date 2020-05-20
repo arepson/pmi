@@ -1,14 +1,17 @@
-/docs/data-paginate-queries /docs/pagination 301
-/docs/image /docs/images 301
-/docs/link /docs/linking 301
-/docs/contribute /docs/how-to-contribute 301
-/docs/basic-config /docs/config 301
-/docs/data-query-data /docs/querying-data 301
-/docs/data-source-plugin /docs/fetching-data
-/docs/data-custom /docs/fetching-data 301
-/docs/install-plugins /docs/plugins 301
-/docs/site-meta-data /docs/metadata 301
-/docs/routing /docs/templates 301
+/docs/data-paginate-queries / 301
+/docs/image / 301
+/docs/link / 301
+/docs/contribute / 301
+/docs/basic-config / 301
+/docs/data-query-data / 301
+/docs/data-source-plugin /
+/docs/data-custom / 301
+/docs/install-plugins / 301
+/docs/site-meta-data / 301
+/docs/routing / 301
+/starters /laman/ 301
+/plugins /laman/ 301
+/plugin /laman/ 301
 
 /plugins /plugins/_id_star.html 200
 /plugins/* /plugins/_id_star.html 200
