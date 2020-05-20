@@ -5,7 +5,7 @@
         <div class="intro__message mb" hidden></div>
 
         <h1 class="intro__title">
-          <span>PMI Kabupaten Kudus <beta width="50" height="50" /></span>
+          <span>PMI Kabupaten Kudus <beta class="hide-for-small" width="50" height="50" /></span>
         </h1>
 
         <p class="intro__lead lead post mb">
