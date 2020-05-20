@@ -21,7 +21,7 @@ query ($id: ID!) {
 </page-query>
 
 <script>
-import links from '@/data/doc-links.yaml'
+import links from '@/data/isi-laman.yaml'
 
 export default {
   computed: {

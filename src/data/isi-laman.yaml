@@ -30,25 +30,3 @@
       link: /laman/dilarang-donor/
     - title: Prosedur Donor
       link: /laman/prosedur-donor/
-
-- title: Contribute
-  items:
-    - title: How to contribute
-      link: /laman/how-to-contribute/
-    - title: How to create a plugin
-      link: /laman/how-to-create-a-plugin/
-    - title: Code of conduct
-      link: /laman/code-of-conduct/
-
-- title: Help
-  items:
-  - title: Prerequisites
-    link: /laman/prerequisites/
-  - title: How to upgrade
-    link: /laman/how-to-upgrade/
-  - title: Troubleshooting
-    link: /laman/troubleshooting/
-  - title: Dev tools
-    link: /laman/dev-tools/
-  - title: FAQ
-    link: /laman/faq/

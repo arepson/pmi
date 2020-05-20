@@ -4,7 +4,9 @@
 
       <Card title="Pintasan">
         <ul class="bullet-list mb">
+          <li><Bullet /><g-link to="/corona/">Pantau COVID-19</g-link></li>
           <li><Bullet /><g-link to="/stokdarah/">Stok Darah PMI Kudus</g-link></li>
+          <li><Bullet /><g-link to="/agenda/">Agenda Donor Darah</g-link></li>
           <li><Bullet /><g-link to="/berita/">Berita PMI kudus</g-link></li>
           <li><Bullet /><g-link to="/kontak/">Kontak</g-link></li>
           <li><Bullet /><g-link to="/laman/">Laman</g-link></li>

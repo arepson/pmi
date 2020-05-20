@@ -4,7 +4,7 @@ module.exports = {
   siteName: 'PMI Kudus',
   siteUrl: `https://www.pmikudus.eu.org/`,
   titleTemplate: '%s - PMI Kudus',
-  siteDescription: 'Mengabdi Bagi Negeri Dari Hati',
+  siteDescription: '#KitaHadapiBersama',
 
   chainWebpack(config, { isServer }) {
     config.module.rules.delete('svg')

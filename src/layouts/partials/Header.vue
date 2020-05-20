@@ -35,7 +35,7 @@
 
         <a
           aria-label="Twitter"
-          href="//twitter.com/gridsome"
+          href="//twitter.com/KudusPmi"
           rel="noopener noreferrer"
           target="_blank"
           title="Mutualan Yuk!"
@@ -60,9 +60,7 @@ import Logo from './Logo'
 import Nav from './Nav'
 import SearchForm from '@/components/SearchForm.vue'
 import ToggleTheme from '@/components/ToggleTheme.vue'
-import GithubLogo from '@/assets/images/github-logo.svg'
 import TwitterLogo from '@/assets/images/twitter-logo.svg'
-import DiscordLogo from '@/assets/images/discord-logo.svg'
 import FacebookLogo from '@/assets/images/facebook-logo.svg'
 import InstagramLogo from '@/assets/images/instagram-logo.svg'
 import LazyHydrate from 'vue-lazy-hydration'
