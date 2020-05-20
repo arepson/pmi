@@ -9,7 +9,7 @@
 
 <script>
 import Logo from '~/assets/images/pmikudus-logo.svg'
-import LogoSmall from '~/assets/images/pmikudus-logo-small.svg'
+import LogoSmall from '~/assets/images/pmikudus-logo.svg'
 export default {
   components: {
     Logo,
@@ -30,7 +30,9 @@ export default {
   	height: auto;
     margin-top: -3px;
     &--small {
-      max-width: 25px;
+    max-width: 150px;
+  	height: auto;
+    margin-top: -3px;
     }
   }
  }
