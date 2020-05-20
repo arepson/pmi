@@ -30,9 +30,7 @@ export default {
   	height: auto;
     margin-top: -3px;
     &--small {
-    max-width: 150px;
-  	height: auto;
-    margin-top: -3px;
+    max-width: 130px;
     }
   }
  }
