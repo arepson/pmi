@@ -1,6 +1,6 @@
 ---
-title: Penggalangan Bulan Dana 2019
-slug: ajak-warga-donor-darah
+title: Penggalangan Bulan Dana PMI 2019 Kudus Tembus Rp 1,09 Miliar 
+slug: bulan-dana-2019
 author: [pmi.kudus]
 date: 2019-08-18
 tags: ['Bulan Dana', 'Bantuan Sosial']

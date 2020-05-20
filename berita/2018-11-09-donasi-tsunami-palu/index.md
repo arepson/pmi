@@ -1,5 +1,5 @@
 ---
-title: Donasi Korban Tsunami Palu
+title: Bantu Korban Tsunami Palu, PMI Kudus Salurkan Donasi Rp 260 Juta
 slug: donasi-tsunami-palu
 author: [pmi.kudus]
 date: 2018-11-09

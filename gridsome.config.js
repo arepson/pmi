@@ -30,10 +30,8 @@ module.exports = {
   },
 
   templates: {
-    BlogPost: '/berita/:year/:month/:day/:title',
+    BlogPost: '/berita/:year/:month/:day/:slug',
     Contributor: '/kontributor/:id',
-    Starter: '/starters/:title',
-    Platform: '/starters/platform/:id',
     Example: node => node.path
   },
 
@@ -76,7 +74,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'examples/*.md',
+        path: 'prinsip/*.md',
         typeName: 'Example',
         remark: {
           plugins: [

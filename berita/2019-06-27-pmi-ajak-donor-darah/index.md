@@ -1,5 +1,5 @@
 ---
-title: PMI Kudus Ajak Warga Donor Darah
+title: Evaluasi Bulan Dana, PMI Kudus Ajak Warga Donor Darah
 slug: ajak-warga-donor-darah
 author: [pmi.kudus]
 date: 2019-06-27

@@ -68,10 +68,8 @@ import LazyHydrate from 'vue-lazy-hydration'
 export default {
   components: {
     Logo,
-    GithubLogo,
     TwitterLogo,
     ToggleTheme,
-    DiscordLogo,
     FacebookLogo,
     InstagramLogo,
     SearchForm,
